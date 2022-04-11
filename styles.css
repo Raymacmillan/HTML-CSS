@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.Topheader{
+    margin-left: 2px;
+    font-size: 48px;
+    font-weight: #f9faf8;
+    font-family: serif;
+}
+
+.logoImg{
+    margin-left: -185px;
+}
+
+.signUpBtn{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    width: 120px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.leftContent,p{
+    font-size: 18px;
+    font-weight: #efe7eb;
+}
+
+.topQuater{
+    background-color: #1F2937;
+    height: 550px;
+    border-radius: 3px;
+}
+.HeadingContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span,a{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: #E5E7EB;
+    font-family: serif;
+}
+
+.leftContent{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 30px;
+}
+
+.topSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 30px;
+}
+.gadgets{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 400px;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 30px;
+}
+
+
+#comment{
+    width: 800px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 400;
+}
+.comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.huawei{
+    width: 320px;
+}
+
+h2{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.signUpNotification{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin: auto;
+    background-color: blue;
+    height: 120px;
+    width: 900px;
+    border-radius: 5px;
+    margin-top: 30px;
+    gap: 100px;
+}
+
+.btn2{
+    background-color: blue;
+    border: 2px solid white;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 200;
+    color: white;
+}
+
+.copyRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: auto;
+    background-color: #1F2937;
+    border-radius: 1px;
+    margin-top: 65px;
+    color: white;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 35px;
+    width: 15px;
+    height: 14px;
+    color: white;
+}
+
+.firstGadget,.secondGadget,.thirdGadget,.fourthGadget,p{
+    font-size: small;
+}
+
+.name{
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: serif;
+}
